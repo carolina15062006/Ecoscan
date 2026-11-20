@@ -474,8 +474,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4966719baa26e4b0e8231a24d9bd491a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.XR.ARFoundation::UnityEngine.XR.ARFoundation.ARCameraManager
-  m_FocusMode: 1
-  m_LightEstimationMode: 0
+  m_FocusMode: -1
+  m_LightEstimationMode: -1
   m_AutoFocus: 1
   m_ImageStabilization: 0
   m_LightEstimation: 0
@@ -583,6 +583,7 @@ GameObject:
   - component: {fileID: 1991894548}
   - component: {fileID: 1991894547}
   - component: {fileID: 1991894546}
+  - component: {fileID: 1991894549}
   m_Layer: 0
   m_Name: XR Origin
   m_TagString: Untagged
@@ -605,9 +606,9 @@ MonoBehaviour:
   <trackablesChanged>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
-  m_SerializedLibrary: {fileID: 0}
+  m_SerializedLibrary: {fileID: 11400000, guid: 30ab123b23951f941936633471af5dd1, type: 2}
   m_MaxNumberOfMovingImages: 0
-  m_TrackedImagePrefab: {fileID: 0}
+  m_TrackedImagePrefab: {fileID: 9137665829155067419, guid: 6e1a108edd204894791c348e80190b9a, type: 3}
 --- !u!114 &1991894547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -641,6 +642,38 @@ Transform:
   - {fileID: 1953653024}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1991894549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991894545}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09a2f801687285840b9e4494bda86782, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GestorDePaginas
+  imageManager: {fileID: 0}
+  paginas:
+  - nomeDaImagemNoLivro: Cavalo Marinho_1
+    prefabDoAnimal: {fileID: 8425706068010505706, guid: 823abcc728b23fa4ba3e467d29b365a0, type: 3}
+  - nomeDaImagemNoLivro: Estrela do Mar_1
+    prefabDoAnimal: {fileID: 2580625236127794267, guid: 6d5f3135560e5da4cb83bf337c4b1a9a, type: 3}
+  - nomeDaImagemNoLivro: Gaivota_1
+    prefabDoAnimal: {fileID: 6465358581744813517, guid: 0f974b2eab66be74c8f2aa3bed470545, type: 3}
+  - nomeDaImagemNoLivro: Golfinho_1
+    prefabDoAnimal: {fileID: 393936145968542014, guid: e36e8679fd7c8c74bb953bda709d3e5e, type: 3}
+  - nomeDaImagemNoLivro: Peixe_1
+    prefabDoAnimal: {fileID: 7221914948696296221, guid: a8a004bc72e67cd46bf63e0dc33843f8, type: 3}
+  - nomeDaImagemNoLivro: Pinguim_1
+    prefabDoAnimal: {fileID: 5025958552401474049, guid: a6325fb0ffb6e9d40b3cd206858e8c59, type: 3}
+  - nomeDaImagemNoLivro: Polvo_1
+    prefabDoAnimal: {fileID: 1715068788471998579, guid: 47819e71980bbe1438057ceecce32247, type: 3}
+  - nomeDaImagemNoLivro: Tartaruga_1
+    prefabDoAnimal: {fileID: 5647141128519761931, guid: 4101063cc5c925d468df71e4555e4048, type: 3}
+  - nomeDaImagemNoLivro: "Tubar\xE3o_1"
+    prefabDoAnimal: {fileID: 3170275102670298442, guid: a1d2c305d60ec3441803b688bb8f2956, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
