@@ -16,11 +16,14 @@ MonoBehaviour:
   nomeAnimal: Pinguim
   spriteAnimalLimpo: {fileID: -5197669713695449528, guid: ca2569ee55f4fa54587ed24704cc03c0, type: 3}
   spritePoluicao: {fileID: 0}
-  tipoPoluicao: 
-  factosSabiasQue: []
-  dicaAjudar: 
+  tipoPoluicao: "Mancha de petr\xF3leo"
+  factosSabiasQue:
+  - "Os pinguins n\xE3o voam, mas s\xE3o excelentes nadadores: usam as asas como barbatanas."
+  - "As penas, muito juntinhas, funcionam como um casaco quente e imperme\xE1vel."
+  - "O petr\xF3leo cola as penas umas \xE0s outras e o pinguim deixa de estar protegido do frio e da \xE1gua."
+  dicaAjudar: "Poupar energia em casa ajuda a gastar menos petr\xF3leo."
   usaPinca: 0
-  usaEsponja: 0
+  usaEsponja: 1
   usaTesoura: 0
-  usaEscova: 0
+  usaEscova: 1
   usaAspirador: 0
