@@ -654,7 +654,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09a2f801687285840b9e4494bda86782, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GestorDePaginas
-  imageManager: {fileID: 0}
+  imageManager: {fileID: 1991894546}
   paginas:
   - nomeDaImagemNoLivro: Cavalo Marinho_1
     prefabDoAnimal: {fileID: 8425706068010505706, guid: 823abcc728b23fa4ba3e467d29b365a0, type: 3}
