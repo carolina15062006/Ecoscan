@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd63ab3da94812344b7c59a84d389e74, type: 3}
   m_Name: Ficha_Pinguim
   m_EditorClassIdentifier: Assembly-CSharp::FichaAnimal
-  idImagemLivro: 
-  nomeAnimal: 
-  spriteAnimalLimpo: {fileID: 0}
+  idImagemLivro: Pinguim_1
+  nomeAnimal: Pinguim
+  spriteAnimalLimpo: {fileID: -5197669713695449528, guid: ca2569ee55f4fa54587ed24704cc03c0, type: 3}
   spritePoluicao: {fileID: 0}
   tipoPoluicao: 
   factosSabiasQue: []

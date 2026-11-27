@@ -12,15 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd63ab3da94812344b7c59a84d389e74, type: 3}
   m_Name: Ficha_PeixePalhaco
   m_EditorClassIdentifier: Assembly-CSharp::FichaAnimal
-  idImagemLivro: 
-  nomeAnimal: 
-  spriteAnimalLimpo: {fileID: 0}
+  idImagemLivro: Peixe_1
+  nomeAnimal: "Peixe-palha\xE7o"
+  spriteAnimalLimpo: {fileID: 3445605954915596754, guid: c0b9a6aec83fcf845a629ed3181539d8, type: 3}
   spritePoluicao: {fileID: 0}
-  tipoPoluicao: 
-  factosSabiasQue: []
-  dicaAjudar: 
+  tipoPoluicao: "Qu\xEDmicos e corais sem cor."
+  factosSabiasQue:
+  - "O peixe-palha\xE7o vive dentro de uma an\xE9mona e est\xE1 protegido das picadas por uma camada de muco."
+  - "Todos os peixes-palha\xE7o nascem machos; o maior do grupo pode transformar-se em f\xEAmea."
+  - "Quando a \xE1gua fica demasiado quente ou polu\xEDda, os corais perdem a cor e ficam brancos: chama-se branqueamento."
+  dicaAjudar: "Usa protetor solar amigo dos corais quando vais \xE0 praia."
   usaPinca: 0
-  usaEsponja: 0
+  usaEsponja: 1
   usaTesoura: 0
-  usaEscova: 0
+  usaEscova: 1
   usaAspirador: 0
