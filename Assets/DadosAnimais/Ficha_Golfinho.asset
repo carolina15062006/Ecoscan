@@ -12,15 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd63ab3da94812344b7c59a84d389e74, type: 3}
   m_Name: Ficha_Golfinho
   m_EditorClassIdentifier: Assembly-CSharp::FichaAnimal
-  idImagemLivro: 
-  nomeAnimal: 
-  spriteAnimalLimpo: {fileID: 0}
+  idImagemLivro: Golfinho_1
+  nomeAnimal: Golfinho
+  spriteAnimalLimpo: {fileID: 6555090661603826110, guid: 35e33b0d0eb2c424382aa3493d6f7121, type: 3}
   spritePoluicao: {fileID: 0}
-  tipoPoluicao: 
-  factosSabiasQue: []
-  dicaAjudar: 
-  usaPinca: 0
+  tipoPoluicao: Rede de pesca abandonada
+  factosSabiasQue:
+  - "Os golfinhos respiram ar por um buraco no topo da cabe\xE7a, chamado espir\xE1culo."
+  - Cada golfinho tem um assobio especial, como se fosse o seu nome.
+  - Redes de pesca perdidas no mar chamam-se "redes fantasma" e continuam a apanhar animais durante anos.
+  dicaAjudar: "Na praia, apanha fios e redes que encontres e p\xF5e-nos no lixo."
+  usaPinca: 1
   usaEsponja: 0
-  usaTesoura: 0
+  usaTesoura: 1
   usaEscova: 0
   usaAspirador: 0

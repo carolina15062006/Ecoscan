@@ -12,15 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd63ab3da94812344b7c59a84d389e74, type: 3}
   m_Name: Ficha_Tartaruga
   m_EditorClassIdentifier: Assembly-CSharp::FichaAnimal
-  idImagemLivro: 
-  nomeAnimal: 
-  spriteAnimalLimpo: {fileID: 0}
+  idImagemLivro: Tartaruga_1
+  nomeAnimal: Tartaruga
+  spriteAnimalLimpo: {fileID: 781972651567562337, guid: 2791fd5bdbb72f04b9c33f06083c728f, type: 3}
   spritePoluicao: {fileID: 0}
-  tipoPoluicao: 
-  factosSabiasQue: []
-  dicaAjudar: 
-  usaPinca: 0
+  tipoPoluicao: "Saco de pl\xE1stico engolido"
+  factosSabiasQue:
+  - "As tartarugas marinhas existem h\xE1 mais de 100 milh\xF5es de anos,  j\xE1 nadavam no tempo dos dinossauros."
+  - "As f\xEAmeas voltam \xE0 praia onde nasceram para p\xF4r os seus ovos."
+  - "Debaixo de \xE1gua, um saco de pl\xE1stico parece uma alforreca, o lanche preferido de muitas tartarugas."
+  dicaAjudar: "Leva sempre um saco reutiliz\xE1vel quando vais \xE0s compras."
+  usaPinca: 1
   usaEsponja: 0
   usaTesoura: 0
-  usaEscova: 0
+  usaEscova: 1
   usaAspirador: 0
