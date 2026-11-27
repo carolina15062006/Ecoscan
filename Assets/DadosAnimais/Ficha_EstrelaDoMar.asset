@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd63ab3da94812344b7c59a84d389e74, type: 3}
+  m_Name: Ficha_EstrelaDoMar
+  m_EditorClassIdentifier: Assembly-CSharp::FichaAnimal
+  idImagemLivro: Estrela do Mar_1
+  nomeAnimal: Estrela-do-mar
+  spriteAnimalLimpo: {fileID: 5262035006835042236, guid: ef69c18f43b02ce4d8f6a99a5d43adfb, type: 3}
+  spritePoluicao: {fileID: 0}
+  tipoPoluicao: "\xC1gua \xE1cida"
+  factosSabiasQue:
+  - "Se perder um bra\xE7o, a estrela-do-mar consegue fazer crescer um novo!"
+  - "N\xE3o tem c\xE9rebro nem sangue: usa a pr\xF3pria \xE1gua do mar para se mover."
+  - "O oceano absorve cerca de um quarto do CO\u2082 que libertamos para o ar, e isso torna a \xE1gua mais \xE1cida."
+  dicaAjudar: "Andar a p\xE9, de bicicleta ou de autocarro ajuda a libertar menos CO\u2082."
+  usaPinca: 0
+  usaEsponja: 1
+  usaTesoura: 0
+  usaEscova: 0
+  usaAspirador: 1

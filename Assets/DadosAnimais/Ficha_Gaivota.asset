@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd63ab3da94812344b7c59a84d389e74, type: 3}
+  m_Name: Ficha_Gaivota
+  m_EditorClassIdentifier: Assembly-CSharp::FichaAnimal
+  idImagemLivro: Gaivota_1
+  nomeAnimal: Gaivota
+  spriteAnimalLimpo: {fileID: 7935009931227433564, guid: c39c2f53caf00f44891cd47610c3d157, type: 3}
+  spritePoluicao: {fileID: 0}
+  tipoPoluicao: "Petr\xF3leo e anel de pl\xE1stico"
+  factosSabiasQue:
+  - "As gaivotas conseguem beber \xE1gua salgada: t\xEAm uma gl\xE2ndula perto dos olhos que elimina o sal."
+  - Comunicam umas com as outras com muitos sons diferentes.
+  - "Os an\xE9is de pl\xE1stico das latas podem prender o bico e o pesco\xE7o das aves."
+  dicaAjudar: "Corta os an\xE9is de pl\xE1stico das embalagens antes de os pores no ecoponto amarelo."
+  usaPinca: 0
+  usaEsponja: 1
+  usaTesoura: 1
+  usaEscova: 0
+  usaAspirador: 0
