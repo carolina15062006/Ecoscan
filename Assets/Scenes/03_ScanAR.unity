@@ -657,23 +657,34 @@ MonoBehaviour:
   imageManager: {fileID: 1991894546}
   paginas:
   - nomeDaImagemNoLivro: Cavalo Marinho_1
+    nomeBonito: Cavalo-marinho
     prefabDoAnimal: {fileID: 8425706068010505706, guid: 823abcc728b23fa4ba3e467d29b365a0, type: 3}
   - nomeDaImagemNoLivro: Estrela do Mar_1
+    nomeBonito: Estrela-do-mar
     prefabDoAnimal: {fileID: 2580625236127794267, guid: 6d5f3135560e5da4cb83bf337c4b1a9a, type: 3}
   - nomeDaImagemNoLivro: Gaivota_1
+    nomeBonito: Gaivota
     prefabDoAnimal: {fileID: 6465358581744813517, guid: 0f974b2eab66be74c8f2aa3bed470545, type: 3}
   - nomeDaImagemNoLivro: Golfinho_1
+    nomeBonito: Golfinho
     prefabDoAnimal: {fileID: 393936145968542014, guid: e36e8679fd7c8c74bb953bda709d3e5e, type: 3}
   - nomeDaImagemNoLivro: Peixe_1
+    nomeBonito: "Peixe-palha\xE7o"
     prefabDoAnimal: {fileID: 7221914948696296221, guid: a8a004bc72e67cd46bf63e0dc33843f8, type: 3}
   - nomeDaImagemNoLivro: Pinguim_1
+    nomeBonito: Pinguim
     prefabDoAnimal: {fileID: 5025958552401474049, guid: a6325fb0ffb6e9d40b3cd206858e8c59, type: 3}
   - nomeDaImagemNoLivro: Polvo_1
+    nomeBonito: Polvo
     prefabDoAnimal: {fileID: 1715068788471998579, guid: 47819e71980bbe1438057ceecce32247, type: 3}
   - nomeDaImagemNoLivro: Tartaruga_1
+    nomeBonito: Tartaruga
     prefabDoAnimal: {fileID: 5647141128519761931, guid: 4101063cc5c925d468df71e4555e4048, type: 3}
   - nomeDaImagemNoLivro: "Tubar\xE3o_1"
+    nomeBonito: "Tubar\xE3o-baleia"
     prefabDoAnimal: {fileID: 3170275102670298442, guid: a1d2c305d60ec3441803b688bb8f2956, type: 3}
+  textoInstrucao: {fileID: 0}
+  botaoAtivarEcoScan: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
